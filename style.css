@@ -93,84 +93,80 @@ color: chartreuse;
     font-weight: 600;
     font-style: italic;
 }
+.projects img{
+    width:230px;
+    height:250px;
+    border-radius:30px;
+}
 
-    .projects img{
-        width:230px;
-        height:250px;
-        border-radius:30px;
-    }
+.projects{
+    display: flex;
+    justify-content:space-between;
+    color:black;
+    margin:30px;
+    text-align: center;
+    align-content: center;
+}
 
-    .projects{
-        display: flex;
-        justify-content:space-between;
-        color:black;
-        margin:30px;
-        text-align: center;
-        align-content: center;
-    }
+.project p{
+    text-align:justify;
+    padding-left:20px;
+    padding-right:20px;
+    padding-right:20px;
+}
 
-    .project p{
-        text-align:justify;
-        padding-left:20px;
-        padding-right:20px;
-        padding-right:20px;
-    }
+.about img {
+    width: 90px;
+    display: flex;
+    float: left;
+    margin-top:-2px;
+    margin-left:20px;
+    border-radius:20px;
+    padding-top:-10px;
+}
 
-    .about img {
-        width: 90px;
-        display: flex;
-        float: left;
-        margin-top:-2px;
-        margin-left:20px;
-        border-radius:20px;
-        padding-top:-10px;
-    }
+.about p{
+    text-align:center;
+    align-content: center;
+}
 
-    .about p{
-        text-align:center;
-        align-content: center;
-    }
-
-    .contact p {
-        text-align:justify;
-    }
+.contact p {
+    text-align:justify;
+}
 
     .socials img{
-        width:40px;
-        height:40px;
-        border-radius:50px;
-        justify-content: space-between;
-        margin-top:50px;
-        padding:15px;
-    }
+    width:40px;
+    height:40px;
+    border-radius:50px;
+    justify-content: space-between;
+    margin-top:50px;
+    padding:15px;
+ }
 
 
-    footer{
-        text-align: center;
-        justify-content: space-between;
-        position: relative;
-        margin: -15px;
-        font-size: small;
-        font-weight: 700;
-    }
+footer{
+    text-align: center;
+    justify-content: space-between;
+    position: relative;
+    margin: -15px;
+    font-size: small;
+    font-weight: 700;
+}
 
-    footer p{
+footer p{
         background-color:darkgoldenrod;
-    }
+}
+.btn{
+    display:none;
+}
 
-    
-    
+
+
+
+
+
+ @media(max-width:900px){
     .btn{
-        display:none;
-    }
-
-
-
-
-
-
-    @media(max-width:900px){
-        .btn{
         display:flex;
         cursor: pointer;
         margin-right: 10px;
@@ -209,15 +205,13 @@ color: chartreuse;
 
 
     
-@media(max-width:900px){
+@media (max-width:900px){
     .services{
         display:block;
         align-items:center;
-        text-align: center;
     }
     .projects{
         display:block;
         align-items:center;
-        text-align: center;
     }
-    }
+}
