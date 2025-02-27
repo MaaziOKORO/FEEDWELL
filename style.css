@@ -1,0 +1,223 @@
+body{
+    margin:20px;
+    font-family:'Times New Roman', Times, serif; 
+}
+
+.logo{
+    width:50px;
+    height:50px;
+    border-radius: 50px;
+    margin: 5px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    position: relative;
+    color:white;
+    cursor: pointer;
+}
+
+nav{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background-color:darkgoldenrod;
+    margin-left:-10px;
+    margin-right:-10px;
+    margin-top:-10px;
+    margin-bottom:20px;
+    border-radius:10PX;
+}
+
+nav li{
+    font-size:20px;
+    text-align: center;
+    list-style: none;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom:10px;
+    margin:5px;   
+}
+
+nav li:hover{
+    color:chartreuse;
+}
+
+h1{
+    text-align: center;
+    color:green;
+    cursor: pointer;
+    background-color:darkgoldenrod;
+    border-radius:100px;
+}
+
+h1:hover{
+color: chartreuse;
+}
+
+.page p{
+    text-align:center;
+    justify-content: center;
+
+}
+
+.services{
+    display: flex;
+    justify-content:space-betwen;
+    align-items:center;
+    align-content:center;
+    box-shadow:inset;
+    margin: 5px;
+}
+
+.services img{
+    border-radius:30px;
+    width:250px;
+    height:250px;
+    margin: 5px;
+}
+
+.services p{
+    text-align:justify;
+    padding-left:20px;
+    padding-right:20px;
+    padding-right:20px;
+}
+
+.services h3{
+    text-align: center;
+    color:forestgreen;
+    font-weight: 600;
+    font-style: italic;
+}
+
+    .projects img{
+        width:230px;
+        height:250px;
+        border-radius:30px;
+    }
+
+    .projects{
+        display: flex;
+        justify-content:space-between;
+        color:black;
+        margin:30px;
+        text-align: center;
+        align-content: center;
+    }
+
+    .project p{
+        text-align:justify;
+        padding-left:20px;
+        padding-right:20px;
+        padding-right:20px;
+    }
+
+    .about img {
+        width: 90px;
+        display: flex;
+        float: left;
+        margin-top:-2px;
+        margin-left:20px;
+        border-radius:20px;
+        padding-top:-10px;
+    }
+
+    .about p{
+        text-align:center;
+        align-content: center;
+    }
+
+    .contact p {
+        text-align:justify;
+    }
+
+    .socials img{
+        width:40px;
+        height:40px;
+        border-radius:50px;
+        justify-content: space-between;
+        margin-top:50px;
+        padding:15px;
+    }
+
+
+    footer{
+        text-align: center;
+        justify-content: space-between;
+        position: relative;
+        margin: -15px;
+        font-size: small;
+        font-weight: 700;
+    }
+
+    footer p{
+        background-color:darkgoldenrod;
+    }
+
+    
+    
+    .btn{
+        display:none;
+    }
+
+
+
+
+
+
+    @media(max-width:900px){
+        .btn{
+        display:flex;
+        cursor: pointer;
+        margin-right: 10px;
+        font-size: 30px;
+        }
+
+    .menu{
+    flex-direction: column;
+    position:absolute;
+    top:54px;
+    right:200%;
+    width: 50%;
+    height: 50vh;
+    transition:0.5secs;
+    background: transparent;
+    background-color: rgba(184, 135, 11, 0.885);
+    color: #fff;
+    float: right;
+    text-align:center;
+    margin-right: 13px;
+    border-radius: 10px;
+    }
+    .menu li{
+        margin: 10px;
+        display: inline;
+        text-align: center;
+        float: right;
+        padding-right: 30px;
+        font-weight: 900;
+        font-size: 15px;
+    }
+    .menu.active{
+        left:0;
+    }
+}
+
+
+    
+@media(max-width:900px){
+    .services{
+        display:block;
+        align-items:center;
+        text-align: center;
+    }
+    .projects{
+        display:block;
+        align-items:center;
+        text-align: center;
+    }
+    }
